@@ -1,0 +1,35 @@
+.one{
+    height: 30px;
+    width:200px;
+    background-color: rgb(18, 12, 9);
+    position: absolute;
+    top: 35%;
+    left: 40%;
+}
+.two{
+    height: 30px;
+    width:200px;
+    background-color: rgb(18,12,9);
+    position: absolute;
+    top: 44%;
+    left: 40%;
+    
+}
+.three{
+    height: 30px;
+    width:200px;
+    background-color: rgb(18, 12, 9);
+    position: absolute;
+    top: 53%;
+    left: 40%;
+}
+body{
+    background-color: antiquewhite;
+}
+h1{
+    position: absolute;
+    left: 38%;
+    bottom: 65%;
+    font-style: italic;
+    color: blue;
+}

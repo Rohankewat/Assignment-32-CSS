@@ -1,0 +1,133 @@
+.maincontainer{
+    display: grid;
+
+    grid-template-areas: 
+                        "head head"
+                        "nav main"
+                        "nav foot";
+
+    grid-template-rows: 90px 200px 340px;
+    grid-template-columns: 120px 1fr; 
+
+    min-height: 100vh;
+
+    width: 500px;
+    margin-left: 27%;
+    margin-top: 7%;
+}
+
+header{
+    background-color: palevioletred;
+    grid-area: head;
+}
+
+nav{
+    background-color:darkcyan;
+    grid-area: nav;
+}
+
+footer{
+    background-color: rgb(223, 214, 197) ;
+    grid-area: foot;
+}
+
+main{
+    background-color: rgb(223, 214, 197);
+    grid-area: main;
+
+}
+
+img{
+    height: auto;
+    width: 100%;
+    margin-left: 170px;
+    margin-top: 25px;
+    border: 1px solid blanchedalmond;
+    
+}
+
+.card{
+    display: grid;
+
+    grid-template-columns: 80px;
+}
+
+.main1{
+    margin-left: 180px;
+    font-style: italic;
+    font-size: 20px;
+    letter-spacing: 0.1rem;
+}
+
+.head1{
+    margin-left: 150px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+    letter-spacing: 0.1rem;
+    
+}
+
+.head2{
+    margin-left: 170px;
+    letter-spacing: 0.1rem;
+    font-style: italic;
+}
+#i1{
+    padding:5px;
+    background-color: aquamarine;
+    border:1px solid aqua;
+    border-radius: 50%;
+    
+}
+.p1{
+    
+    margin-left: 170px;
+    color:blueviolet;
+    font-size: 25px;
+}
+.p2{
+    color:#1c1d1e;
+    font-style: italic;
+    margin-left: 150px;
+}
+
+.about{
+    color:#1c1d1e;
+    margin-left: 130px;
+    font-style: italic;
+}
+
+.nav1,.nav2{
+    color: #f1f5f6;
+    font-style: italic;
+    margin-left: 2%;
+}
+
+#nav3,#nav7{
+    font-size: 25px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 100%;
+    margin-left: 15%;
+}
+
+.nav4,.nav5{
+    margin-left: 2%;
+    color: #f1f5f6;
+    font-style: italic;
+}
+
+.nav6,.nav8{
+    margin-left: 2%;
+    font-style: italic;
+    color: #f1f5f6;
+}
+body{
+    background-color: #f1f5f6;
+}
+
+@media (max-width:740px){
+    body{
+        background-color: black;
+    }
+}

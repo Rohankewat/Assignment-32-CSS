@@ -1,0 +1,25 @@
+button{
+    margin-left: 35%;
+    margin-top: 20%;
+
+    width: 400px;
+    height: 50px;
+
+    background-color:pink;
+    border-radius: 15px;
+    border: 0.2px solid black;
+    padding: 10px;
+    font-size: 20px;
+    color:rgb(1, 2, 2);
+    transition: 2s;
+    font-style: italic;
+}
+
+button:hover{
+    background-color:blue;
+    color: white;
+}
+
+body{
+    background-color: royalblue;
+}

@@ -1,0 +1,53 @@
+.one{
+    position: absolute;
+
+    background-color: rgb(128, 193, 193);
+    
+    height: 50px;
+    width: 50px;
+
+    border: 1px solid black;
+
+    border-radius: 100%;
+    
+    margin-left: 47%;
+    margin-top: 25.7%;
+
+    animation:1s alternate-reverse 0.5s infinite ball;
+}
+
+.two{
+    position: absolute;
+
+    background-color: rgb(140, 140, 160);
+
+    height: 5px;
+    width: 40px;
+
+    border-radius: 90%;
+
+
+    margin-left: 47.5%;
+    margin-top: 30%;
+
+    animation: 2s 3s infinite shadow;
+}
+
+@keyframes ball{
+    0%{
+        margin-top: 90px;
+    }
+    100%{
+        margin-top: 312.8px;
+    }
+}
+
+@keyframes shadow{
+    50%{
+        transform: scaleX(0.5);
+    }
+}
+
+body{
+    background-color: rgb(228, 210, 210);
+}

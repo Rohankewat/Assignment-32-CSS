@@ -1,0 +1,70 @@
+.one{
+    background-image: url("./blur-bokeh-1.jpg");
+    height: 150px;
+    width:500px;
+    position: relative;
+    left: 24.5%;
+    top: 119px;
+    background-size: cover;
+    border: 2px solid blue;
+    
+}
+.two{
+    height:85px;
+    width:350px;
+    background-color:antiquewhite;
+    position: relative;
+    left: 32%;
+    margin-bottom: 20%;
+    border:2px solid rgb(171, 53, 66);
+
+}
+.three{
+    display:inline-block;
+    position: relative;
+    left: 3%;
+}
+.four{
+    display:inline-block;
+    position: relative;
+    left: 3%;
+}
+.five{
+    display:inline-block;
+    position: relative;
+    left: 3%;
+}
+.six{
+    display:inline-block;
+    position: relative;
+    left: 3%;
+}
+.seven{
+    display:inline-block;
+    position: relative;
+    left: 3%;
+}
+.eight{
+    display:inline-block;
+    position: relative;
+    left: 3%;
+}
+.nine{
+    display:inline-block;
+    position: relative;
+    left: 3%;
+}
+h1{
+    position: relative;
+    left: 40%;
+
+}
+.ten{
+    position: relative;
+    top: 95px;
+    font-style: italic;
+    color: blueviolet;
+}
+body{
+    background-color: #f1f5f6;
+}

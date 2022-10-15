@@ -1,0 +1,13 @@
+h1{
+    width: 300px;
+    margin:0 auto;
+    font-style: italic;
+    letter-spacing: 0.1rem;
+}
+h3{
+    width:300px;
+    margin:0 auto;
+    margin-top: 15px;
+    font-style:oblique;
+    letter-spacing: 0.1rem;
+}

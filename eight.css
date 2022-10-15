@@ -1,0 +1,32 @@
+.maincontainer{
+    display: grid;
+
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.one,.two,.three,.four,.five,.six,.seven,.eight,.nine{
+    height:250px;
+    width:330px;
+    background-color:rgb(230, 230, 239);
+    margin-bottom: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 8px;
+    border: 0px;
+    font-style:oblique;
+    font-size: 18px;
+    margin: 10px;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)),url("./R.jpg");
+    background-size: cover;
+    color: white;
+
+}
+
+@media (max-width:995px){
+    .maincontainer{
+        background-color:white;
+    }
+}

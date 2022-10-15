@@ -1,0 +1,52 @@
+.one{
+    height:100px;
+    width:700px;
+    background-color: rgba(131, 116, 159, 0.766);
+    position: absolute;
+    left: 15%;
+    top:30%;
+    border: 1px solid blue;
+}
+.two{
+    height:50px;
+    width:693px;
+    background-color: rgb(6, 6, 98);
+    position: absolute;
+    left: 15.2%;
+    top:36%;
+    border: 3px solid #683da4;
+}
+#four{
+    position: absolute;
+    bottom: 4.8%;
+    left: 28%;
+    color: white;
+    font-weight: 500;
+}
+#three{
+    position: absolute;
+    left: 10%;
+    color: white;
+    font-weight:500;
+}
+#five{
+    position: absolute;
+    bottom: 4.8%;
+    left: 45%;
+    color: white;
+    font-weight: 500;
+}
+#six{
+    position: absolute;
+    bottom: 4.8%;
+    left: 60%;
+    color: white;
+    font-weight: 500;
+}
+#seven{
+    position: absolute;
+    bottom: 4.8%;
+    left: 80%;
+    color: white;
+    font-weight: 500;
+}
